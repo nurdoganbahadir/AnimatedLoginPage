@@ -15,9 +15,9 @@ body {
 }
 .girl {
   width: 20%;
-  height: 30%;
+  height: 40%;
   position: absolute;
-  top: 40%;
+  top: 30%;
   right: -25%;
   animation: girl 8s linear infinite;
 }
@@ -70,4 +70,50 @@ body {
   100% {
     transform: translateY(3000%);
   }
+}
+
+.form {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  border: 2px solid rgb(221, 215, 215);
+  border-radius: 1rem;
+  width: 380px;
+  padding: 1.2rem;
+  color: brown;
+  background-color: hsla(0, 0%, 50%, 0);
+  backdrop-filter: blur(20px);
+}
+input {
+  width: 80%;
+  height: 35px;
+  border: none;
+}
+input::placeholder {
+  color: brown;
+  font-weight: 600;
+}
+button {
+  width: 80%;
+  height: 35px;
+  border: none;
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+.links {
+  width: 265px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+a {
+  text-decoration: none;
+  color: brown;
 }
